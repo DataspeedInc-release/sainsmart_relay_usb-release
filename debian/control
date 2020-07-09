@@ -1,0 +1,12 @@
+Source: ros-noetic-sainsmart-relay-usb
+Section: misc
+Priority: optional
+Maintainer: Kevin Hallenbeck <khallenbeck@dataspeedinc.com>
+Build-Depends: debhelper (>= 9.0.0), libftdi-dev, ros-noetic-catkin, ros-noetic-roscpp, ros-noetic-std-msgs
+Homepage: http://wiki.ros.org/sainsmart_relay_usb
+Standards-Version: 3.9.2
+
+Package: ros-noetic-sainsmart-relay-usb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libftdi-dev, ros-noetic-roscpp, ros-noetic-std-msgs
+Description: SainSmart USB relay driver controller
