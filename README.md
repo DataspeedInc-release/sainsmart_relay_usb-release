@@ -1,3 +1,26 @@
+## sainsmart_relay_usb (noetic) - 0.0.3-1
+
+The packages in the `sainsmart_relay_usb` repository were released into the `noetic` distro by running `/usr/bin/bloom-release sainsmart_relay_usb --rosdistro noetic` on `Thu, 09 Jul 2020 13:59:18 -0000`
+
+The `sainsmart_relay_usb` package was released.
+
+Version of package(s) in repository `sainsmart_relay_usb`:
+
+- upstream repository: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## sainsmart_relay_usb (melodic) - 0.0.2-0
 
 The packages in the `sainsmart_relay_usb` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic sainsmart_relay_usb --edit` on `Wed, 05 Sep 2018 20:41:53 -0000`
