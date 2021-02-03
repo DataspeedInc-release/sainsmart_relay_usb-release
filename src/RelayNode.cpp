@@ -78,7 +78,7 @@ void RelayNode::recv(const std_msgs::Byte::ConstPtr& msg)
     uint8_t value = msg->data;
     int ret = ftdi_write_data(ctx_, &value, sizeof(value));
     if (ret == sizeof(value)) {
-      ROS_INFO("FTDI %s: Writing 0x%02X", serial_live_.c_str(), value);
+      ROS_DEBUG("FTDI %s: Writing 0x%02X", serial_live_.c_str(), value);
     } else {
       ROS_WARN("FTDI %s: Writing 0x%02X failed, %i: %s", serial_live_.c_str(), value, ret, ftdi_get_error_string(ctx_));
       ftdi_usb_close(ctx_);
