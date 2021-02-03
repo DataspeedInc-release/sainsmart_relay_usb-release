@@ -2,6 +2,12 @@
 Changelog for package sainsmart_relay_usb
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.4 (2021-02-03)
+------------------
+* Add symbolic link to serial port with udev rule
+* Change ROS_INFO message on relay command to ROS_DEBUG to remove clutter in the terminal output
+* Contributors: Kevin Hallenbeck
+
 0.0.3 (2020-07-09)
 ------------------
 * Increase CMake minimum version to 3.0.2 to avoid warning about CMP0048
